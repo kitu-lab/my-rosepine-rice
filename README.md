@@ -3,7 +3,7 @@ yea im just using the same syntax w another skin atp
 
 <img width="1600" height="900" alt="insert rice preview" src="https://github.com/user-attachments/assets/f0d0c6d1-d34a-4a23-b5ea-87056c466760" />
 
-##ABOUT
+## ABOUT
 hyprland rice based on rosé pine color palette
 
 > [!NOTE]
