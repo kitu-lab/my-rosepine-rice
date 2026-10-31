@@ -11,7 +11,7 @@ hyprland rice based on rosé pine color palette
 > for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
 
 ## WALLPAPERS
-you can get these  [here](https://github.com/rose-pine/wallpapers)! or just get the ones from my repo, i guess.
+you can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get the ones from my repo, i guess.
 
 ## INSTALLATION
 <details>
