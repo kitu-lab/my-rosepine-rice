@@ -1,7 +1,8 @@
 # my-rosepine-rice
 yea im just using the same syntax w another skin atp
 
-<img width="400" height="225" alt="PREVIEW" src="https://github.com/user-attachments/assets/6934fffe-18cb-4491-95b7-7560b4bb0423" />
+<img width="400" height="225" alt="NOOOOPLSNO" src="https://github.com/user-attachments/assets/b002912f-e931-419a-bc71-19b0e2990d7c" />
+
 
 <details>
   <summary>dependencies:</summary>
