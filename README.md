@@ -22,6 +22,9 @@ you can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get
 
   - a linux distribution (of course)
   - hyprland
+  - hyprpicker
+  - hyprshot
+  - mako
   - waybar
   - fastfetch
   - awww (An Answer to your Wayland Wallpaper Woes)
