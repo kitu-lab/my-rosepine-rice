@@ -1,4 +1,4 @@
-![NOTE]
+[!NOTE]
 for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
 
 # my-rosepine-rice
@@ -30,5 +30,5 @@ yea im just using the same syntax w another skin atp
 <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> <kbd>E</kbd> exit hyprland<br>
        
 ## WALLPAPERS
-you can get these  [here](https://github.com/p4rfait/rose-pine-wallpapers)! or just get the ones from my repo, i guess.
+you can get these  [here](https://github.com/rose-pine/wallpapers)! or just get the ones from my repo, i guess.
 
