@@ -1,5 +1,5 @@
-[!NOTE]
-for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
+> [!NOTE]
+> for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
 
 # my-rosepine-rice
 yea im just using the same syntax w another skin atp
