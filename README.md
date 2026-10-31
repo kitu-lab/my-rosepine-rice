@@ -26,6 +26,7 @@ you can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get
   - hyprshot
   - mako
   - waybar
+  - fredoka (for waybar, you can get it -[here](https://fonts.google.com/specimen/Fredoka))
   - fastfetch
   - awww (An Answer to your Wayland Wallpaper Woes)
   - rofi
