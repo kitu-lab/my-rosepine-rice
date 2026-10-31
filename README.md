@@ -11,10 +11,10 @@ hyprland rice based on rosé pine color palette
 
 ## INSTALLATION
 ```
-git clone https://github.com/kitu-lab/my-rosepine-rice.git<br>
-cd my-rosepine-rice <br>
-chmod +x install.sh <br>
-./install.sh<br>
+git clone https://github.com/kitu-lab/my-rosepine-rice.git
+cd my-rosepine-rice 
+chmod +x install.sh 
+./install.sh
 ```
 ## DEPENDENCIES
 <details>
