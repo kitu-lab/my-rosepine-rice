@@ -25,7 +25,6 @@ you can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get
   - rofi
 </details>
 
----
 ```
 git clone https://github.com/kitu-lab/my-rosepine-rice.git
 cd my-rosepine-rice 
