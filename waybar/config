@@ -1,0 +1,54 @@
+[{
+"position":"top",
+"output": "HDMI-A-1",
+"height": 41,
+"width": 1600,
+"spacing": 10,
+"margin-top": 0,
+"margin-left": 0,
+"margin-right": 0,
+"margin-bottom": 0,
+"modules-left":[
+    "ext/workspaces"
+  ],
+"modules-center":[
+"clock"
+],
+
+"modules-right":[
+"pulseaudio",
+"cpu",
+"tray",
+"memory" 
+],
+      "pulseaudio": {
+	"format": "{icon} {volume}%",
+	"format-icons": ["   "],
+	"on-click": "pavucontrol"
+	},
+      "cpu": {
+	      "format": "{icon} {usage}%",
+	      "format-icons": ["   "]
+      },
+      "memory": {
+	      "format": "{icon} {4}%",
+	      "format-icons": "󰍛   "
+      },
+}, {
+  "position": "top",
+  "output": "eDP-1",
+  "width": 1600,
+  "height": 30,
+  "margin-top": 5,
+  "margin-left": 5,
+  "margin-right": 5,
+  "margin-bottom": 0,
+  "modules-center":[
+  ],
+  "modules-left":[
+    "ext/workspaces"
+],
+  "modules-right":[
+    "clock",
+  ],
+}]

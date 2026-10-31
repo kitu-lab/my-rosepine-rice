@@ -1,0 +1,56 @@
+* {
+  font-family: Fredoka;
+  font-size: 20px;
+}
+window#waybar {
+	background: #191724;
+}
+label.module {
+	background: transparent;
+	color: #e0def4;
+  border-radius: 100px;
+  padding: 2px;
+  min-width: 30px;
+  margin: 1px;
+}
+box.module {
+	background: transparent;
+	color: #e0def4;
+  padding: 2px;
+  min-width: 30px;
+  margin: 1px;
+}
+#workspaces {
+  background: transparent;
+}
+#workspaces button {
+  transition: all 200ms ease-out; 
+  background: transparent;
+  color: #e0def4;
+  min-width: 20px;
+  margin: 1px;
+  padding: 0px;
+}
+#workspaces button.active {
+  background: #e0def4;
+  color: #191724;
+  min-width: 20px;
+  padding: 0px;
+  margin: 5px;
+}
+#workspaces button.urgent {
+  background: transparent;
+  color: #eb6f92;
+}
+#window {
+  min-width: 25px;
+  padding: 5px;
+}
+#cpu, #memory, #pulseaudio, #clock {
+  min-width: 50px;
+  padding: 5px;
+}
+#tray {
+  min-width: 30px;
+  padding: 5px;
+}

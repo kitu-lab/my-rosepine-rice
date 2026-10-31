@@ -1,0 +1,44 @@
+* {
+  bg:  #191724;
+  fg:  #e0def4;
+  ac:  #c3a5e6;
+  txt: #e0def4;
+  background-color: transparent;
+  foreground-color: @fg;
+  text-color: @txt;
+}
+window {
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    background-color: @bg;
+    border-radius: 0px;
+    border: 1px;
+    border-color: @ac;
+    anchor: center;
+    location: center;
+  }
+       element-text.selected {
+            background-color: @ac;
+            text-color: @bg;
+            border-radius: 6px;
+            padding: 5px;
+            margin: 5px;
+          }
+          element-text {
+              background-color: transparent;
+              text-color: @txt;
+              padding: 5px; 
+              border-radius: 6px;
+              margin: 5px;
+          }
+          entry {
+              text-color: @txt;
+              background-color: #26233a;
+              padding: 5px;
+              border-radius: 6px;
+              margin: 3px;
+              location: south;
+              anchor: south;
+          }
