@@ -1,3 +1,9 @@
+## INSTALATION
+´git clone https://github.com/kitu-lab/my-rosepine-rice.git
+cd my-rosepine-rice
+chmod +x install.sh
+./install.sh´
+
 > [!NOTE]
 > for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
 
@@ -31,4 +37,6 @@ yea im just using the same syntax w another skin atp
        
 ## WALLPAPERS
 you can get these  [here](https://github.com/rose-pine/wallpapers)! or just get the ones from my repo, i guess.
+
+
 
