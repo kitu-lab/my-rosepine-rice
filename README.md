@@ -9,6 +9,7 @@ hyprland rice based on rosé pine color palette
 
 > [!WARNING]
 > for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
+
 > [!NOTE]
 > kitty's not uploaded because i used the one already included, just type kitten themes and search for it
 
