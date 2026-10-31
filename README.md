@@ -10,13 +10,7 @@ hyprland rice based on rosé pine color palette
 > for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
 
 ## INSTALLATION
-```
-git clone https://github.com/kitu-lab/my-rosepine-rice.git
-cd my-rosepine-rice 
-chmod +x install.sh 
-./install.sh
-```
-## DEPENDENCIES
+
 <details>
   <summary>dependencies:</summary>
 
@@ -27,6 +21,15 @@ chmod +x install.sh
   - awww (An Answer to your Wayland Wallpaper Woes)
   - rofi
 </details>
+
+---
+
+```
+git clone https://github.com/kitu-lab/my-rosepine-rice.git
+cd my-rosepine-rice 
+chmod +x install.sh 
+./install.sh
+```
 
 ## BINDS
  <kbd>SUPER</kbd> + <kbd>V</kbd> to toggle window float<br>
