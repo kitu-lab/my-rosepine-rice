@@ -11,7 +11,7 @@ git clone https://github.com/kitu-lab/my-rosepine-rice.git<br>
 cd my-rosepine-rice <br>
 chmod +x install.sh <br>
 ./install.sh<br>
----
+
 ## DEPENDENCIES
 <details>
   <summary>dependencies:</summary>
@@ -23,7 +23,7 @@ chmod +x install.sh <br>
   - awww (An Answer to your Wayland Wallpaper Woes)
   - rofi
 </details>
----
+
 ## BINDS
  <kbd>SUPER</kbd> + <kbd>V</kbd> to toggle window float<br>
 <kbd>SUPER</kbd> + <kbd>F</kbd> to toggle fullscreen<br>
