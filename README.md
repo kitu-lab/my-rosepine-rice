@@ -7,7 +7,7 @@ hyprland rice based on rosé pine color palette
 ## PREVIEW
 <img width="1600" height="900" alt="Rosé Pine rice preview" src="https://github.com/user-attachments/assets/f0d0c6d1-d34a-4a23-b5ea-87056c466760" />
 
-> [!DISCLAIMER]
+> [!WARNING]
 > for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
 > [!NOTE]
 > kitty's not uploaded because i used the one already included, just type kitten themes and search for it
