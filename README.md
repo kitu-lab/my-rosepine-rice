@@ -1,11 +1,10 @@
 ![NOTE]
-for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine directories
+for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
 
 # my-rosepine-rice
 yea im just using the same syntax w another skin atp
 
-<img width="800" height="400" alt="rice preview" src="https://github.com/user-attachments/assets/b002912f-e931-419a-bc71-19b0e2990d7c" />
-
+<img width="1600" height="900" alt="insert rice preview" src="https://github.com/user-attachments/assets/f0d0c6d1-d34a-4a23-b5ea-87056c466760" />
 
 <details>
   <summary>dependencies:</summary>
