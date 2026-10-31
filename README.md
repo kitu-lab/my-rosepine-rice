@@ -12,6 +12,7 @@ cd my-rosepine-rice <br>
 chmod +x install.sh <br>
 ./install.sh<br>
 
+## DEPENDENCIES NEEDED
 <details>
   <summary>dependencies:</summary>
 
