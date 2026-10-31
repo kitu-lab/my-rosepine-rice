@@ -15,7 +15,7 @@ git clone https://github.com/kitu-lab/my-rosepine-rice.git<br>
 cd my-rosepine-rice <br>
 chmod +x install.sh <br>
 ./install.sh<br>
-``
+```
 ## DEPENDENCIES
 <details>
   <summary>dependencies:</summary>
