@@ -4,7 +4,7 @@ for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosep
 # my-rosepine-rice
 yea im just using the same syntax w another skin atp
 
-<img width="900" height="1600" alt="NOOOOPLSNO" src="https://github.com/user-attachments/assets/b002912f-e931-419a-bc71-19b0e2990d7c" />
+<img width="1600" height="900" alt="rice preview" src="https://github.com/user-attachments/assets/b002912f-e931-419a-bc71-19b0e2990d7c" />
 
 
 <details>
