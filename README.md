@@ -1,7 +1,10 @@
+![NOTE]
+for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine directories
+
 # my-rosepine-rice
 yea im just using the same syntax w another skin atp
 
-<img width="400" height="225" alt="NOOOOPLSNO" src="https://github.com/user-attachments/assets/b002912f-e931-419a-bc71-19b0e2990d7c" />
+<img width="900" height="1600" alt="NOOOOPLSNO" src="https://github.com/user-attachments/assets/b002912f-e931-419a-bc71-19b0e2990d7c" />
 
 
 <details>
@@ -27,5 +30,6 @@ yea im just using the same syntax w another skin atp
 <kbd>alt</kbd> + <kbd>Q</kbd>  toggle wallpaper<br>
 <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> <kbd>E</kbd> exit hyprland<br>
        
-
+## WALLPAPERS
+you can get these  [here](https://github.com/p4rfait/rose-pine-wallpapers)! or just get the ones from my repo, i guess.
 
