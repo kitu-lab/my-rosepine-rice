@@ -12,7 +12,7 @@ yea im just using the same syntax w another skin atp
   - awww (An Answer to your Wayland Wallpaper Woes)
   - rofi
 </details>
----
+
 ## BINDS
 <kbd>SUPER</kbd> + <kbd>V</kbd> to toggle window float
 <kbd>SUPER</kbd> + <kbd>F</kbd> to toggle fullscreen
@@ -24,6 +24,6 @@ yea im just using the same syntax w another skin atp
 <kbd>SUPER</kbd> + <kbd>J</kbd> toggle split angle (horizontal or vertical)
 <kbd>alt</kbd> + <kbd>Q</kbd>  toggle wallpaper
 <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> <kbd>E</kbd> exit hyprland
----
+       
 
 
