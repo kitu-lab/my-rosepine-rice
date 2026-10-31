@@ -48,7 +48,7 @@ chmod +x install.sh
 <kbd>SUPER</kbd> + <kbd>Q</kbd> open terminal<br>
 <kbd>SUPER</kbd> + <kbd>J</kbd> toggle split angle (horizontal or vertical)<br>
 <kbd>alt</kbd> + <kbd>Q</kbd>  toggle wallpaper<br>
-<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> <kbd>E</kbd> exit hyprland<br>
+<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> exit hyprland<br>
 ---       
 
 
