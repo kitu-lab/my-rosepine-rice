@@ -2,35 +2,35 @@
 yea im just using the same syntax w another skin atp
 
 ## ABOUT
-hyprland rice based on rosé pine color palette
+Hyprland rice based on rosé pine color palette
 
 ## PREVIEW
 <img width="1600" height="900" alt="Rosé Pine rice preview" src="https://github.com/user-attachments/assets/f0d0c6d1-d34a-4a23-b5ea-87056c466760" />
 
 > [!WARNING]
-> for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs<br>
-> also KRI (Kitu's Rice Installer) doesn't install [the waybar font](https://fonts.google.com/specimen/Fredoka), you must download it from the link!
+> For the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs<br>
+> Also, KRI (Kitu's Rice Installer) doesn't install the font used by waybar, you must download and install [Fredoka](https://fonts.google.com/specimen/Fredoka) separately!
 
 > [!NOTE]
-> kitty's not uploaded because i used the one already included, just type `kitten themes` and search for it
+> Kitty's not uploaded because i used the one already included, just type `kitten themes` and search for it
 
 ## WALLPAPERS
-you can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get the ones from my repo, i guess.
+You can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get the ones from my repo, i guess.
 
 ## INSTALLATION
 <details>
-  <summary>dependencies:</summary>
+  <summary>Dependencies:</summary>
 
-  - a linux distribution (of course)
-  - hyprland
-  - hyprpicker
-  - hyprshot
-  - mako
-  - waybar
-  - fredoka (for waybar, you can get it [here](https://fonts.google.com/specimen/Fredoka))
-  - fastfetch
-  - awww (An Answer to your Wayland Wallpaper Woes)
-  - rofi
+  - A linux distribution (of course)
+  - Hyprland
+  - Hyprpicker
+  - Hyprshot
+  - Mako
+  - Waybar
+  - Fredoka (for waybar, you can get it [here](https://fonts.google.com/specimen/Fredoka))
+  - Fastfetch
+  - Awww (An Answer to your Wayland Wallpaper Woes)
+  - Rofi
 </details>
 
 ```
@@ -41,16 +41,16 @@ chmod +x install.sh
 ```
 
 ## BINDS
- <kbd>SUPER</kbd> + <kbd>V</kbd> to toggle window float<br>
-<kbd>SUPER</kbd> + <kbd>F</kbd> to toggle fullscreen<br>
-<kbd>SUPER</kbd> + <kbd>1 - 0</kbd> to focus on workspace 1 - 10<br>
-<kbd>PRINT</kbd> to screenshot a region<br>
-<kbd>SUPER</kbd> + <kbd>PRINT</kbd> to screenshot output<br>
-<kbd>SUPER</kbd> + <kbd>E</kbd> open file manager<br>
-<kbd>SUPER</kbd> + <kbd>Q</kbd> open terminal<br>
-<kbd>SUPER</kbd> + <kbd>J</kbd> toggle split angle (horizontal or vertical)<br>
-<kbd>alt</kbd> + <kbd>Q</kbd>  toggle wallpaper<br>
-<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> exit hyprland<br>
+<kbd>SUPER</kbd> + <kbd>V</kbd> To toggle window float<br>
+<kbd>SUPER</kbd> + <kbd>F</kbd> To toggle fullscreen<br>
+<kbd>SUPER</kbd> + <kbd>1 - 0</kbd> To focus on workspace 1 - 10<br>
+<kbd>PRINT</kbd> To screenshot a region<br>
+<kbd>SUPER</kbd> + <kbd>PRINT</kbd> To screenshot output<br>
+<kbd>SUPER</kbd> + <kbd>E</kbd> Open file manager<br>
+<kbd>SUPER</kbd> + <kbd>Q</kbd> Open terminal<br>
+<kbd>SUPER</kbd> + <kbd>J</kbd> Toggle split angle (horizontal or vertical)<br>
+<kbd>ALT</kbd> + <kbd>Q</kbd>  Toggle wallpaper<br>
+<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> Exit hyprland<br>
 ---       
 
 
