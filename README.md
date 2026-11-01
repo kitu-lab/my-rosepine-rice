@@ -8,8 +8,8 @@ hyprland rice based on rosé pine color palette
 <img width="1600" height="900" alt="Rosé Pine rice preview" src="https://github.com/user-attachments/assets/f0d0c6d1-d34a-4a23-b5ea-87056c466760" />
 
 > [!WARNING]
-> for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs
-> also KRI (Kitu's Rice Installer) doesn't install [the waybar font](https://fonts.google.com/specimen/Fredoka)), you must download it from the link!
+> for the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs<br>
+> also KRI (Kitu's Rice Installer) doesn't install [the waybar font](https://fonts.google.com/specimen/Fredoka), you must download it from the link!
 
 > [!NOTE]
 > kitty's not uploaded because i used the one already included, just type `kitten themes` and search for it
