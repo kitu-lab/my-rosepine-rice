@@ -21,7 +21,7 @@ You can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get
 <details>
   <summary>Dependencies:</summary>
 
-  - A linux distribution (of course)
+  - A Linux distribution (of course)
   - Hyprland
   - Kitty (or use whatever u want idk)
   - Hyprpicker
