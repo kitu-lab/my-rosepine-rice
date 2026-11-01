@@ -11,6 +11,7 @@ resposta=${resposta:-Y}
 if [ "$resposta" = "Y" ] || [ "$resposta" = "y" ]; then
   echo "Installing rice..."
   mkdir -p "$HOME/.config/waybar/" "$HOME/.config/hypr/" "$HOME/.local/share/rofi/themes/" "$HOME/wallpapers" "$HOME/.config/mako/" "$HOME/.config/fastfetch"
+  echo "1" > "$HOME/wallpaper.txt"
   cp fastfetch/config.jsonc "$HOME/.config/fastfetch/config.jsonc"
   cp daemon.lua "$HOME"
   cp mako/config "$HOME/.config/mako/config"
