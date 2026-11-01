@@ -12,7 +12,7 @@ Hyprland rice based on Rosé Pine color palette
 > Also, KRI (Kitu's Rice Installer) doesn't install the font used by waybar, you must download and install [Fredoka](https://fonts.google.com/specimen/Fredoka) separately!
 
 > [!NOTE]
-> Kitty's config isn't uploaded because i used the built-in for Rosé Pine theme.  Just type `kitten themes` and search for it
+> Kitty's config isn't uploaded because i used the built-in Rosé Pine theme.  Just type `kitten themes` and search for it
 
 ## WALLPAPERS
 You can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get the ones from my repo, i guess.
