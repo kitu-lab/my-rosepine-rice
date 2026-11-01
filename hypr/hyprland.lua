@@ -1,11 +1,7 @@
----------------------------------------------
-------> KITU -- PLACEHOLDER FOR RICES <------
----------------------------------------------
-
 ---> IMPORTANT LOCALS
 -- my programs
 local terminal = "kitty" -- this is for my default terminal
-local files = "dolphin" -- this is for my default file manager
+local files = "nautilus" -- this is for my default file manager
 
 -- my app launcher/menu
 local launcher = "rofi -show drun -display-drun '' " -- command to execute launcher in desktop run mode
@@ -13,12 +9,12 @@ local launcher = "rofi -show drun -display-drun '' " -- command to execute launc
 ---> SCREEN SETTINGS
 -- monitor
 hl.monitor({
-	output = "HDMI-A-1", -- monitor name
-	mode = "1600x900@75", -- this is for setting up resolution and refresh rate
+  output = "HDMI-A-1",  -- monitor name
+  mode = "1600x900@75", -- this is for setting up resolution and refresh rate
 })
 hl.monitor({
-	output = "eDP-1", -- monitor name
-	disabled = true, -- to disable it
+  output = "eDP-1", -- monitor name
+  disabled = true,  -- to disable it
 })
 ---> BINDING (long part)
 -- some window rules
@@ -37,19 +33,19 @@ hl.bind("SUPER + C", hl.dsp.window.close({ window }))
 
 -- keyboard layout haahhahahaahahahhahahahhahahaha
 hl.config({
-	input = {
-		kb_layout = "br",
-		kb_variant = "",
-		repeat_delay = 300,
-		repeat_rate = 40,
-		repeat_rate = 40,
-	},
+  input = {
+    kb_layout = "br",
+    kb_variant = "",
+    repeat_delay = 300,
+    repeat_rate = 40,
+    repeat_rate = 40,
+  },
 })
 -- script
 for i = 1, 10 do
-	local key = i % 10
-	hl.bind("SUPER + " .. key, hl.dsp.focus({ workspace = i }))
-	hl.bind("SUPER + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
+  local key = i % 10
+  hl.bind("SUPER + " .. key, hl.dsp.focus({ workspace = i }))
+  hl.bind("SUPER + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
 end
 
 -- some programs
@@ -64,105 +60,105 @@ hl.bind("ALT + Q", hl.dsp.exec_cmd("lua daemon.lua"))
 
 -- exit hyprland
 hl.bind(
-	"SUPER + SHIFT + E",
-	hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
+  "SUPER + SHIFT + E",
+  hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
 ) -- goodnight hyprland
 
 ---> COMPOSITOR SETTINGS
 -- hyprland layout
 hl.config({
-	general = {
-		layout = "dwindle",
-	},
+  general = {
+    layout = "dwindle",
+  },
 })
 hl.config({
-	dwindle = {
-		preserve_split = true,
-	},
+  dwindle = {
+    preserve_split = true,
+  },
 })
 
 -- wayland
 -- 🚨🚨🚨 VERY ESSENTIAL LIKE HOLY ESSENTIAL OH MY GOD 🚨🚨🚨
 hl.window_rule({
-	name = "suppress-maximize-events",
-	match = { class = ".*" },
-	suppress_event = "maximize",
+  name = "suppress-maximize-events",
+  match = { class = ".*" },
+  suppress_event = "maximize",
 })
 -- 🚨🚨🚨 YES VERY ESSENTIAL NEVER FORGET NEVER FORGET 🚨🚨🚨
 hl.layer_rule({
-	name = "rofi",
-	blur = false,
-	match = {
-		namespace = "rofi",
-	},
-	animation = "slide",
+  name = "rofi",
+  blur = false,
+  match = {
+    namespace = "rofi",
+  },
+  animation = "slide",
 })
 
 -- decorations (fun part)
 hl.config({
-	general = {
-		col = {
-			active_border = { colors = { "rgb(c4a7e7)" } },
-			inactive_border = { colors = { "rgb(191724)" } },
-		},
-		border_size = 1,
-		gaps_in = 3,
-		gaps_out = 15,
-	},
-	decoration = {
-		wobble = {
-			mesh = 32,
-			enabled = true,
-			intensity = 0.5,
-			damping = 15,
-			stiffness = 200,
-			mass = 1,
-		},
-		rounding = 6,
-		blur = {
-			enabled = false,
-			passes = 3,
-		},
-		shadow = {
-			enabled = false,
-		},
-	},
+  general = {
+    col = {
+      active_border = { colors = { "rgb(c4a7e7)" } },
+      inactive_border = { colors = { "rgb(191724)" } },
+    },
+    border_size = 1,
+    gaps_in = 3,
+    gaps_out = 15,
+  },
+  decoration = {
+    wobble = {
+      mesh = 32,
+      enabled = true,
+      intensity = 0.5,
+      damping = 15,
+      stiffness = 200,
+      mass = 1,
+    },
+    rounding = 6,
+    blur = {
+      enabled = false,
+      passes = 3,
+    },
+    shadow = {
+      enabled = false,
+    },
+  },
 })
 
 ---> AUTOSTART
 hl.on("hyprland.start", function()
-	hl.exec_cmd("awww-daemon & waybar")
+  hl.exec_cmd("awww-daemon & waybar")
 end)
 
 ---> ANIMATIONS (not so fun part)
 -- config
 hl.config({
-	animations = {
-		enabled = true,
-	},
+  animations = {
+    enabled = true,
+  },
 })
 
 -- bezier curves (not that hard tbh. edit: forget about im LARPING WAAAAAAA)
 hl.curve("easeOut", { -- my favorite, use it on everything
-	type = "bezier",
-	points = {
-		{ 0, 0.96 },
-		{ 0.31, 0.97 },
-	},
+  type = "bezier",
+  points = {
+    { 0,    0.96 },
+    { 0.31, 0.97 },
+  },
 })
 hl.curve("easeOutRebound", { -- so bouncy so yummy
-	type = "bezier",
-	points = {
-		{ 0, 0.94 },
-		{ 0.6, 1.16 },
-	},
+  type = "bezier",
+  points = {
+    { 0,   0.94 },
+    { 0.6, 1.16 },
+  },
 })
 hl.curve("easeInOut", { -- it's tolerable
-	type = "bezier",
-	points = {
-		{ 0.645, 0.045 },
-		{ 0.355, 1 },
-	},
+  type = "bezier",
+  points = {
+    { 0.645, 0.045 },
+    { 0.355, 1 },
+  },
 })
 
 -- setting up the tree i think I DONT KNOW WHAT AM I DOING IM SORRY
