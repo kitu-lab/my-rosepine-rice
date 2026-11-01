@@ -2,7 +2,7 @@
 yea im just using the same syntax w another skin atp
 
 ## ABOUT
-Hyprland rice based on rosé pine color palette
+Hyprland rice based on Rosé Pine color palette
 
 ## PREVIEW
 <img width="1600" height="900" alt="Rosé Pine rice preview" src="https://github.com/user-attachments/assets/f0d0c6d1-d34a-4a23-b5ea-87056c466760" />
@@ -12,7 +12,7 @@ Hyprland rice based on rosé pine color palette
 > Also, KRI (Kitu's Rice Installer) doesn't install the font used by waybar, you must download and install [Fredoka](https://fonts.google.com/specimen/Fredoka) separately!
 
 > [!NOTE]
-> Kitty's not uploaded because i used the one already included, just type `kitten themes` and search for it
+> Kitty's config isn't uploaded because i used the built-in for Rosé Pine theme.  Just type `kitten themes` and search for it
 
 ## WALLPAPERS
 You can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get the ones from my repo, i guess.
@@ -23,6 +23,7 @@ You can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get
 
   - A linux distribution (of course)
   - Hyprland
+  - Kitty (or use whatever u want idk)
   - Hyprpicker
   - Hyprshot
   - Mako
@@ -33,7 +34,7 @@ You can get these  [here](https://github.com/rose-pine/wallpapers) ! or just get
   - Rofi
 </details>
 
-```
+```bash
 git clone https://github.com/kitu-lab/my-rosepine-rice.git
 cd my-rosepine-rice 
 chmod +x install.sh 
@@ -50,7 +51,7 @@ chmod +x install.sh
 <kbd>SUPER</kbd> + <kbd>Q</kbd> Open terminal<br>
 <kbd>SUPER</kbd> + <kbd>J</kbd> Toggle split angle (horizontal or vertical)<br>
 <kbd>ALT</kbd> + <kbd>Q</kbd>  Toggle wallpaper<br>
-<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> Exit hyprland<br>
+<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> Exit Hyprland<br>
 ---       
 
 
