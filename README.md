@@ -1,4 +1,4 @@
-# my-rosepine-rice
+# My Rosé Pine Rice
 yea im just using the same syntax w another skin atp
 
 ## ABOUT
