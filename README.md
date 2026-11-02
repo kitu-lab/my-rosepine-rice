@@ -9,6 +9,7 @@ Hyprland rice based on Rosé Pine color palette
 
 > [!WARNING]
 > For the wallpaper toggle thingy, you **MUST HAVE** daemon.lua & wallpapers/rosepine dirs<br>
+> **DO NOT DELETE WALLPAPER.TXT** !!! It's required for daemon.lua!<br>
 > Also, KRI (Kitu's Rice Installer) doesn't install the font used by waybar, you must download and install [Fredoka](https://fonts.google.com/specimen/Fredoka) separately!
 
 > [!NOTE]
